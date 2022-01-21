@@ -60,6 +60,20 @@ git remote rename
 
 git remote rm `<name>`
 
+#### 分支
+
+***
+
+* 创建新的分支并推送到github
+  * git checkout -b `branch-name`
+  * git push origin `branch-name`
+  * 貌似还有一种方法:
+    * git push origin HEAD -u //将创建分支的信息推送给github
+* 删除github远程分支
+  * git push origin :`branch-name`
+
 #### Fork
 
 疑问：fork，将本地分支与原始仓库同步，用github fetch upstream融合，本地的会改变吗
+
+* 应该不会，要git pull更新本地仓库
