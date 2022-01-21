@@ -197,11 +197,14 @@ master对应的是最新一次的提交，而fe923是某次具体的提交
 #### 分支
 
 * git branch 查看分支
-* git branch -r 查看远程分支
+* git branch -r  查看远程分支
+* git branch -a 查看所有分支
 * git branch [branch-name] 新建分支，但仍停留在当前分支
 * git merge [branch] 合并指定分支到当前分支
 * git branch -b [branch-name] 新建分支，并切换到该分支
 * git branch -d [branch-name] 删除分支
+  * 不能删除当前分支，要先git checkout
+
 
 主分支需要稳定，一般不允许在上面工作，可以在新建的dev分支上工作，工作完后再合并到主分支上
 
