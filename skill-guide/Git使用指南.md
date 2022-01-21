@@ -201,7 +201,7 @@ master对应的是最新一次的提交，而fe923是某次具体的提交
 * git branch -a 查看所有分支
 * git branch [branch-name] 新建分支，但仍停留在当前分支
 * git merge [branch] 合并指定分支到当前分支
-* git branch -b [branch-name] 新建分支，并切换到该分支
+* git checkout -b [branch-name] 新建分支，并切换到该分支
 * git branch -d [branch-name] 删除分支
   * 不能删除当前分支，要先git checkout
 
