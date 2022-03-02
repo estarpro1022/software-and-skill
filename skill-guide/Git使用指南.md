@@ -1,5 +1,11 @@
 ### Git使用指南
 
+git自动帮你配path路径
+
+
+
+
+
 下载的太慢可以找镜像网站
 
 ![image-20220118230952172](C:\Users\estar\AppData\Roaming\Typora\typora-user-images\image-20220118230952172.png)

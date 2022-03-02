@@ -41,7 +41,9 @@ ignore：
 * read/listen.txt
   * 忽略listen.txt文件
 
+.idea/
 
+忽略所有.idea/文件夹
 
 ***
 
@@ -49,7 +51,7 @@ ignore：
 
 
 
-
+cmake-debug/
 
 
 

@@ -5,8 +5,11 @@
 #### GitHub加速方法
 
 1. 加速方法，将GitHub仓库地址克隆下来，在码云gitee上导入，然后在git clone
-
 2. 完成之后，再 .git 文件夹的config中修改remote origin 中gitee 为 github
+####加速.exe下载速度
+* 常见的是修改hosts
+* 网站https://d.serctl.com/   （可能会下载失败----不排除网络原因，可以在别人之前的下载历史中下载）
+
 
 #### 寻找开源项目
 
@@ -15,6 +18,8 @@
 * 在搜索框进行筛选
 
 ```c
+# 按作者
+user:xxx
 # 按照项目名/仓库名搜索（大小写不敏感）
 in:name xxx
 # 按照README搜索（大小写不敏感）
@@ -30,6 +35,10 @@ language:xxx
 # 最新更新时间晚于YYYY-MM-DD
 pushed:>YYYY-MM-DD
 ```
+
+> 如何实现in:readme 或 in:description
+
+
 
 #### 远程仓库
 
@@ -68,9 +77,11 @@ git remote rm `<name>`
   * git checkout -b `branch-name`
   * git push origin `branch-name`
   * 貌似还有一种方法:
-    * git push origin HEAD -u //将创建分支的信息推送给github
+    * git push origin HEAD -u //将创建分支的信息推送给github（不推荐）
 * 删除github远程分支
   * git push origin :`branch-name`
+
+* 修改了side分支后，想让main分支和side分支同步，点击pull request手动同步（没有自动跳出pull request)
 
 #### Fork
 
