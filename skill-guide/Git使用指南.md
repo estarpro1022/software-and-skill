@@ -178,7 +178,9 @@ git rm <doc> 		和git rm -f 区别是什么
 
 ##### 撤销文件
 
-git reset HEAD^ doc
+> git reset HEAD^ doc
+
+git rm --cached (-r) doc(folder)
 
 回退文件至上一版本
 
